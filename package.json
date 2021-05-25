@@ -1,0 +1,32 @@
+{
+  "name": "software-as-a-service",
+  "version": "0.1.0",
+  "description": "Learning Serverless Functions with Vercel Deployments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dendrobiummoniliforme/software-as-a-service.git"
+  },
+  "keywords": [
+    "Functions",
+    "Software",
+    "As",
+    "A",
+    "Service",
+    "TypeScript",
+    "Vercel"
+  ],
+  "author": "dendrobiummoniliforme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dendrobiummoniliforme/software-as-a-service/issues"
+  },
+  "homepage": "https://github.com/dendrobiummoniliforme/software-as-a-service#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@vercel/node": "^1.11.0"
+  }
+}
