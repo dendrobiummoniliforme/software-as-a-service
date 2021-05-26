@@ -4,7 +4,7 @@
   "description": "Learning Serverless Functions with Vercel Deployments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,12 @@
   "homepage": "https://github.com/dendrobiummoniliforme/software-as-a-service#readme",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
-    "@vercel/node": "^1.11.0"
+    "@types/jest": "^26.0.23",
+    "@types/jest-when": "^2.7.2",
+    "@vercel/node": "^1.11.0",
+    "jest": "^27.0.1",
+    "jest-when": "^3.3.1",
+    "ts-jest": "^27.0.0",
+    "typescript": "^3.9.3"
   }
 }
